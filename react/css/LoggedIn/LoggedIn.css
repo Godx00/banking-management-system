@@ -1,0 +1,64 @@
+.bgcolor {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(140, 26, 122) 0%, rgb(39, 151, 173) 100%);
+  min-height: 90.1vh;
+}
+
+.but2 {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.addfunds {
+  padding-top: 12em;
+}
+
+.but2:hover {
+  background-color: #0056b3;
+}
+
+.inp2, .inp4, .inp5 {
+  width: 250px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.inp4, .inp5 {
+  max-width: 250px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+}
+
+.topsegment {
+  padding-left: 78em;
+}
+
+.username {
+  position: absolute;
+  top: 15px;
+  right: 70px;
+}
+
+.inp5 {
+  margin-left: 2em;
+}
+
+.namename {
+  color: white;
+}
+
+/* You can add more specific styles or adjust these as needed *//*# sourceMappingURL=LoggedIn.css.map */

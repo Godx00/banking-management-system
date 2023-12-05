@@ -1,0 +1,58 @@
+.background {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(140, 26, 122) 0%, rgb(39, 151, 173) 100%);
+  min-height: 90.1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin: 20px 0;
+}
+
+.for1 {
+  background-color: rgba(244, 244, 244, 0.2823529412);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 35em;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ip1, .ip2 {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.sub1 {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sub1:hover {
+  background-color: #0056b3;
+}
+
+.label1 {
+  font-weight: bold;
+  color: #000000;
+}/*# sourceMappingURL=Login.css.map */

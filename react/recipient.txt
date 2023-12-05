@@ -1,0 +1,40 @@
+const username = cookie.get('userName');
+   const updateUser = [...user];
+    const userMatch = user.find((u)=> u.name === username);
+    if(userMatch)
+    {
+        const  a = userMatch.name;
+        const b = userMatch.acNo;
+        const c = userMatch.pass;
+        const d = userMatch.recPaid;
+        const e = userMatch.recName;
+
+        const safeTransfer = user.find((u)=>u.recName=== recName)
+        if(safeTransfer){ 
+        const  a1 = safeTransfer.name;
+        const b1 = safeTransfer.acNo;
+        const c1= safeTransfer.pass;
+        const d1 = safeTransfer.recPaid;
+        const e1 = safeTransfer.recName;
+        const bal = parseInt(userMatch.balance)- parseInt(amount);
+        const bal2 = parseInt(safeTransfer.balance) + parseInt(amount);
+        userMatch.balance = bal;
+        safeTransfer.balance = bal2;
+        setBalance(bal);
+        setBalance2(bal2);
+        updateUser[userMatch] = userMatch;
+        axios.put(`http://localhost:8080/api/v1/user/${userMatch.id}`, {name: a,balance : bal,pass:c , acNo:b, recPaid: amount,recName:recName})
+      .then((response) => {
+        alert('Balance updated successfully');
+      }).catch((error)=>{alert(error)});
+
+      axios.put(`http://localhost:8080/api/v1/user/${safeTransfer.id}`, {name: a1,balance :bal2 ,pass:c1 , acNo:b1, recPaid:d1,recName:e1})
+      .then((response) => {
+        alert('Balance updated successfully');
+      }).catch((error)=>{alert(error)});
+      
+
+    }}
+    else{
+        alert('no account found');    
+    }

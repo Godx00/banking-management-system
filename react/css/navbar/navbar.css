@@ -1,0 +1,42 @@
+.img1 {
+  size: 2em;
+  max-width: 3.4em;
+  padding-right: 1em;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, #000, #000);
+  border-bottom: 1px solid #222;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+}
+
+.logo1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 0;
+  color: aquamarine;
+  transition: 1s;
+}
+
+.logo1:hover {
+  font-size: 24px;
+  color: rgb(184, 57, 184);
+  transition: 1s;
+}
+
+.nav-link.active {
+  background-color: #555;
+}/*# sourceMappingURL=navbar.css.map */

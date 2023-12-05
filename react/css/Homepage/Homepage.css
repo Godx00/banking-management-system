@@ -1,0 +1,59 @@
+.fullpage {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(140, 26, 122) 0%, rgb(39, 151, 173) 100%);
+  min-height: 100%;
+}
+
+.section1 {
+  width: 100%;
+  height: 100%;
+  min-height: 90.1vh;
+}
+
+.heading1 {
+  margin-left: 1%;
+  color: azure;
+  font-weight: bolder;
+  font-size: 20em;
+  text-align: center;
+  border: 1;
+  padding-top: 50px;
+}
+
+.para1 {
+  font-size: 2.4em;
+  text-align: justify;
+  margin-left: 15em;
+  margin-right: 1em;
+  color: white;
+  margin-top: 6em;
+}
+
+.subheading {
+  font-weight: bolder;
+  font-size: 5em;
+  color: black;
+}
+
+.para2 {
+  font-size: 2em;
+  text-align: justify;
+  color: white;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.para3 {
+  font-size: 2.4em;
+  text-align: justify;
+  margin-left: 1em;
+  margin-right: 15em;
+  color: white;
+}
+
+.button2 {
+  margin-right: 15em;
+  font-weight: bolder;
+  font-size: larger;
+  padding: 0.8em;
+}/*# sourceMappingURL=Homepage.css.map */
